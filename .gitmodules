@@ -1,3 +1,9 @@
 [submodule "Actividad1"]
 	path = Actividad1
 	url = https://github.com/GabrielQuiroz25/Actividad1-CC3S2
+[submodule "Actividad3/kapumota-repo"]
+	path = Actividad3/kapumota-repo
+	url = https://github.com/GabrielQuiroz25/kapumota-repo
+[submodule "Actividad3/Nuevo-Repositorio-Remoto"]
+	path = Actividad3/Nuevo-Repositorio-Remoto
+	url = https://github.com/GabrielQuiroz25/Nuevo-Repositorio-Remoto
