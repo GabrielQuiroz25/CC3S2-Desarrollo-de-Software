@@ -1,0 +1,4 @@
+Registro de cambios en feature2
+Agregando un cambio
+Agregando otro cambio
+Agregando cambio desde feature3

@@ -1,0 +1,3 @@
+[submodule "RepoSubmodulo"]
+	path = RepoSubmodulo
+	url = https://github.com/GabrielQuiroz25/TestRepoSubmodule
