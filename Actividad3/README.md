@@ -89,16 +89,11 @@ CONTRIBUTING.md:
 
 - ¿Cómo te ha ayudado Git a mantener un historial claro y organizado de tus cambios?
 
-    Respuesta: 
+    *Git me ayuda a mantener un historial claro y organizado al usar commits que me permiten registrar los cambios que realizo etiquetando cada commit con un mensaje que describe dicho cambio. Además, el uso de ramas y comandos de fusión  me ayudan a combinar cambios de forma controlada, preservando el historial y permitiendo revisar cada modificación.*
 
-- ¿Qué beneficios ves en el uso de branches para desarrollar nuevas características o corregir 
-errores?
+- ¿Qué beneficios ves en el uso de branches para desarrollar nuevas características o corregir errores?
 
-- Realiza una revisión final del historial de commits para asegurarte de que todos los cambios 
-se han registrado correctamente.
-
-- Revisa el uso de branches y merges para ver cómo Git maneja múltiples líneas de desarrollo.
-
+    *El uso de branches me permite desarrollar nuevas características o corregir errores de forma aislada y segura, ya que los cambios realizados en la rama no afectan al código principal. Esto facilita la colaboración y experimentación, ya que nos permite integrar cambios de forma controlada cuando estén listos.*
 
 -----
 
@@ -183,10 +178,12 @@ Git.
 
 3. Revertir un commit:
     - Imagina que el commit más reciente en main.py no debería haberse hecho. Usa git revert para  revertir ese commit:
-    [![image.png](https://i.postimg.cc/133XzNSB/image.png)](https://postimg.cc/ZCX47nCv)
+    
+        [![image.png](https://i.postimg.cc/133XzNSB/image.png)](https://postimg.cc/ZCX47nCv)
 
     - Verifica que el commit de reversión ha sido añadido correctamente al historial.
-    [![image.png](https://i.postimg.cc/T3Nw5YY6/image.png)](https://postimg.cc/mPMR04HX)
+    
+        [![image.png](https://i.postimg.cc/T3Nw5YY6/image.png)](https://postimg.cc/mPMR04HX)
 
 4. Rebase interactivo:
 
@@ -213,10 +210,12 @@ Git.
 
 1. Crear una nueva rama desde un commit específico:
     - Usa el historial de commits (git log --oneline) para identificar un commit antiguo desde el cual crear una nueva rama:
-    [![image.png](https://i.postimg.cc/BvCmByk4/image.png)](https://postimg.cc/PLPbt6dR)
+    
+        [![image.png](https://i.postimg.cc/BvCmByk4/image.png)](https://postimg.cc/PLPbt6dR)
     
     - Crea una nueva rama bugfix/rollback-feature desde ese commit:
-    [![image.png](https://i.postimg.cc/FRWG2Sh6/image.png)](https://postimg.cc/62ZdZy2V)
+    
+        [![image.png](https://i.postimg.cc/FRWG2Sh6/image.png)](https://postimg.cc/62ZdZy2V)
 
 2. Modificar y confirmar cambios en la nueva rama:
     - Realiza algunas modificaciones en main.py que simulen una corrección de errores:
@@ -252,10 +251,12 @@ Git.
 
 1. Hacer cambios en el archivo main.py:
     - Edita el archivo main.py para introducir un nuevo cambio:
-    [![image.png](https://i.postimg.cc/CxcNZDqx/image.png)](https://postimg.cc/cv8Y2vhp)
+    
+        [![image.png](https://i.postimg.cc/CxcNZDqx/image.png)](https://postimg.cc/cv8Y2vhp)
 
     - Añade y confirma los cambios:
-    [![image.png](https://i.postimg.cc/ydZXrbrD/image.png)](https://postimg.cc/ftM9VBss)
+    
+        [![image.png](https://i.postimg.cc/ydZXrbrD/image.png)](https://postimg.cc/ftM9VBss)
     
 2. Usar git reset para deshacer el commit:
     - Deshaz el commit utilizando git reset para volver al estado anterior:
@@ -267,13 +268,16 @@ anterior.
 
 3. Usar git restore para deshacer cambios no confirmados:
     - Realiza un cambio en README.md y no lo confirmes:
-    [![image.png](https://i.postimg.cc/Hnm5vsyN/image.png)](https://postimg.cc/BLhXX3N5)
-    [![image.png](https://i.postimg.cc/x18m4ZX9/image.png)](https://postimg.cc/gx9rwNy7)
+        
+        [![image.png](https://i.postimg.cc/Hnm5vsyN/image.png)](https://postimg.cc/BLhXX3N5)
+        [![image.png](https://i.postimg.cc/x18m4ZX9/image.png)](https://postimg.cc/gx9rwNy7)
 
     - Usa git restore para deshacer este cambio no confirmado:
-    [![image.png](https://i.postimg.cc/4y1cDkvx/image.png)](https://postimg.cc/64yTZP1k)
+    
+        [![image.png](https://i.postimg.cc/4y1cDkvx/image.png)](https://postimg.cc/64yTZP1k)
     - Verifica que el cambio no confirmado ha sido revertido.
-    [![image.png](https://i.postimg.cc/TYCmQxYk/image.png)](https://postimg.cc/yk3kYwR9)
+    
+        [![image.png](https://i.postimg.cc/TYCmQxYk/image.png)](https://postimg.cc/yk3kYwR9)
 
 
 ### Ejercicio 5: Trabajo colaborativo y manejo de Pull Requests

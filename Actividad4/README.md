@@ -78,6 +78,45 @@ https://github.com/DevTips/DevTips-Starter-Kit
 *Al utilizar ```git merge --no-ff``` en un proyecto en equipo nos ayuda a mantener fácilmente el contexto de las ramas de características, correcciones o cambios. Ya que podemos ver fácilmente qué commits pertenecen a una rama específica, lo que facilita la revisión del código y el seguimiento de cambios.
 Además, se puede revertir una fusión mucho más fácil, ya que puedes revertir el commit de fusión completo en lugar de revertir commits individuales.*
 
+### Crea múltiples commits en una rama
+
+- Haz varios cambios y commits en una rama feature.
+    
+    [![image.png](https://i.postimg.cc/JzJKsPrZ/image.png)](https://postimg.cc/yD105hS8)
+
+- Fusiona la rama con git merge --squash para aplanar todos los commits en uno solo.
+    
+    [![image.png](https://i.postimg.cc/qRg33vsS/image.png)](https://postimg.cc/KkSjXFsD)
+    [![image.png](https://i.postimg.cc/Rqx6y1kx/image.png)](https://postimg.cc/m1VgF9Zm)
+
+- Verifica el historial de commits antes y después de la fusión para ver la diferencia.
+
+    **Historial de commits antes de la fusión:**
+    
+    `git log --oneline --graph`
+    
+    [![image.png](https://i.postimg.cc/4xZBqjRy/image.png)](https://postimg.cc/ykQmSQdC)
+    
+    `git log --oneline --graph --all`
+    
+    [![image.png](https://i.postimg.cc/bvwLNbJj/image.png)](https://postimg.cc/LJGjxJLy)
+
+    **Historial de commits después de la fusión:**
+    
+    `git log --oneline --graph`
+    
+    [![image.png](https://i.postimg.cc/N0CDyM92/image.png)](https://postimg.cc/1g6w2yKy)
+    
+    `git log --oneline --graph --all`
+    
+    [![image.png](https://i.postimg.cc/wvtVDpLf/image.png)](https://postimg.cc/5YVLMDPL)
+
+
+**Pregunta:** ¿Cuándo es recomendable utilizar una fusión squash? ¿Qué ventajas ofrece para proyectos grandes en comparación con fusiones estándar?
+
+*Es recomendable usar una fusión squash cuando se desea integrar los cambios de una rama sin agregar todos sus commits individuales al historial, consolidándolos en un solo commit.*
+
+*Esto es útil en proyectos grandes para mantener un historial más limpio y compacto, evitando commits intermedios irrelevantes. Esto hace que la revisión de cambios sea mucho más fácil ya que todo queda en un único commit. En comparación con las fusiones estándar, se reduce el desorden y simplifica el seguimiento del desarrollo.*
 
 ### Resolver conflictos en una fusión non-fast-forward
 
@@ -89,7 +128,7 @@ En algunos casos, las fusiones no son tan sencillas y pueden surgir conflictos q
 
 2. Crea un archivo index.html y realiza un commit en la rama main:
 
-    [![image.png](https://i.postimg.cc/vZDS07vS/image.png)](https://postimg.cc/9D5pM7KG)
+    [![image.png](https://i.postimg.cc/TPjzDnjN/image.png)](https://postimg.cc/zLB2mbcT)
 
 3. Crea y cambia a una nueva rama feature-update:
 
