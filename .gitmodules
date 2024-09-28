@@ -7,3 +7,6 @@
 [submodule "Actividad3/Nuevo-Repositorio-Remoto"]
 	path = Actividad3/Nuevo-Repositorio-Remoto
 	url = https://github.com/GabrielQuiroz25/Nuevo-Repositorio-Remoto
+[submodule "Actividad5/scrum-project"]
+	path = Actividad5/scrum-project
+	url = https://github.com/GabrielQuiroz25/scrum-project
