@@ -10,3 +10,6 @@
 [submodule "Actividad5/scrum-project"]
 	path = Actividad5/scrum-project
 	url = https://github.com/GabrielQuiroz25/scrum-project
+[submodule "Actividad6/proyecto-colaborativo"]
+	path = Actividad6/proyecto-colaborativo
+	url = https://github.com/GabrielQuiroz25/proyecto-colaborativo
