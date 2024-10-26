@@ -1,15 +1,15 @@
-[submodule "Actividad1"]
-	path = Actividad1
+[submodule "Actividad01"]
+	path = Actividad01
 	url = https://github.com/GabrielQuiroz25/Actividad1-CC3S2
-[submodule "Actividad3/kapumota-repo"]
-	path = Actividad3/kapumota-repo
+[submodule "Actividad03/kapumota-repo"]
+	path = Actividad03/kapumota-repo
 	url = https://github.com/GabrielQuiroz25/kapumota-repo
-[submodule "Actividad3/Nuevo-Repositorio-Remoto"]
-	path = Actividad3/Nuevo-Repositorio-Remoto
+[submodule "Actividad03/Nuevo-Repositorio-Remoto"]
+	path = Actividad03/Nuevo-Repositorio-Remoto
 	url = https://github.com/GabrielQuiroz25/Nuevo-Repositorio-Remoto
-[submodule "Actividad5/scrum-project"]
-	path = Actividad5/scrum-project
+[submodule "Actividad05/scrum-project"]
+	path = Actividad05/scrum-project
 	url = https://github.com/GabrielQuiroz25/scrum-project
-[submodule "Actividad6/proyecto-colaborativo"]
-	path = Actividad6/proyecto-colaborativo
+[submodule "Actividad06/proyecto-colaborativo"]
+	path = Actividad06/proyecto-colaborativo
 	url = https://github.com/GabrielQuiroz25/proyecto-colaborativo
